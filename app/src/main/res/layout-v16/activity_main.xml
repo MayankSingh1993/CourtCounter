@@ -6,14 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/b9">
-
     <ScrollView
         android:layout_width = "match_parent"
         android:layout_height = "match_parent"
         android:layout_alignParentStart = "true"
         android:layout_alignParentTop = "true"
         android:layout_alignParentLeft = "true" >
-
         <LinearLayout
             android:layout_width = "match_parent"
             android:layout_height = "wrap_content"
@@ -40,6 +38,7 @@
                     android:layout_alignParentTop = "true"
                     android:layout_marginTop = "@dimen/_199dp"
                     android:background = "@color/colorDarkBlue"
+                    android:fontFamily = "@string/font3"
                     android:gravity = "center"
                     android:text = "@string/basketball_score"
                     android:textColor = "@android:color/white"
@@ -62,6 +61,7 @@
                         android:layout_marginBottom = "@dimen/_16dp"
                         android:layout_marginTop = "@dimen/_16dp"
                         android:background = "@android:color/white"
+                        android:fontFamily = "@string/font2"
                         android:gravity = "center"
                         android:text = "@string/team_a"
                         android:textColor = "@color/colorDarkGrey"
@@ -72,6 +72,7 @@
                         android:layout_height = "wrap_content"
                         android:layout_marginBottom = "@dimen/_24dp"
                         android:background = "@android:color/white"
+                        android:fontFamily = "@string/font1"
                         android:gravity = "center"
                         android:text = "@string/_0"
                         android:textColor = "@color/colorBlack"
@@ -124,6 +125,7 @@
                         android:layout_marginBottom = "@dimen/_16dp"
                         android:layout_marginTop = "@dimen/_16dp"
                         android:background = "@android:color/white"
+                        android:fontFamily = "@string/font2"
                         android:gravity = "center"
                         android:text = "@string/team_b"
                         android:textColor = "@color/colorDarkGrey"
@@ -134,6 +136,7 @@
                         android:layout_height = "wrap_content"
                         android:layout_marginBottom = "@dimen/_24dp"
                         android:background = "@android:color/white"
+                        android:fontFamily = "@string/font1"
                         android:gravity = "center"
                         android:text = "@string/_0"
                         android:textColor = "@color/colorBlack"
