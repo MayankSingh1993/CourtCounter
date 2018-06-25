@@ -106,7 +106,7 @@
                         android:layout_marginBottom = "@dimen/_70dp"
                         android:layout_marginEnd = "@dimen/_24dp"
                         android:layout_marginStart = "@dimen/_24dp"
-                        android:onClick = "addOneForteamA"
+                        android:onClick = "addOneForTeamA"
                         android:text = "@string/free_throw" />
                 </LinearLayout >
                 <View
